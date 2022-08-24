@@ -20,4 +20,5 @@ function hasProperty(obj, str) {
   return obj.hasOwnProperty(str);
 }
 
-console.log(hasProperty({ name: "Jack", age: 22 }, "name"));
+console.log(hasProperty({ name: "Jack", age: 22 }, "name")); //true
+console.log(hasProperty({ name: "Jack", age: 22 }, "address")); //false
